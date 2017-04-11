@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "prueba-config",
+    "framework": "none",
+    "version": "1.0.0",
+    "libraryId": "c94c5ac1-78e5-499e-b7c8-020a3c6d61ff"
+  }
+}
