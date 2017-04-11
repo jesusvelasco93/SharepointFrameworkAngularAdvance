@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "7633d58e-9b95-451e-835d-5927a1b2c4a7",
+  "alias": "HelloWorldWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "7633d58e-9b95-451e-835d-5927a1b2c4a7",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Webpart Angular 1.8.X" },
+    "description": { "default": "Esto es un webpart de prueba integrado con Angular 1.8.X para realizar una labor de aprendizaje" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "url": "https://babelgrupo.sharepoint.com/_api/SP.UserProfiles.PeopleManager/GetMyProperties?$select=AccountName,Email",
+      "Usuario": ""
+    }
+  }]
+}
